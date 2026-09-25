@@ -1,0 +1,14 @@
+services:
+  postgres:
+    image: postgres:16
+    container_name: cricket_pg
+    environment:
+      POSTGRES_USER: cricket
+      POSTGRES_PASSWORD: cricket
+      POSTGRES_DB: cricket_db
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+volumes:
+  pgdata:

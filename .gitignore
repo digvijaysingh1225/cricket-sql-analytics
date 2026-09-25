@@ -1,0 +1,15 @@
+# Raw data (large, and reproducible via the Cricsheet download commands in README)
+raw_data/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Logs
+load_log.txt
+
+# OS junk
+.DS_Store
+Thumbs.db
